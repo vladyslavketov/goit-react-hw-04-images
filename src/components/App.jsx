@@ -29,7 +29,7 @@ export default function App() {
     setStatus('pending');
     pixabayAPI(searchQuery, page)
       .then(res => {
-        console.log(res);
+        // console.log(res);
         const { hits, totalHits } = res;
         const totalPage = Math.ceil(totalHits / PER_PAGE);
         

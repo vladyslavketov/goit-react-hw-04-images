@@ -211,3 +211,12 @@ img {
 .loader {
   justify-content: center;
 }
+
+.rejectText {
+  text-align: center;
+}
+
+.rejectText span {
+  font-size: 24px;
+  font-weight: 700;
+}
